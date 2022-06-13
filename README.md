@@ -1,6 +1,7 @@
 # repo
 
 #### Setting
+###### Project build.gradle
 ```build.gradle
 buildscript {
     ext.kotlin_version = "1.4.10"
@@ -32,6 +33,7 @@ allprojects {
 
 ```
 
+###### Module build.gradle
 ```build.gradle
 ...
 dependencies {
