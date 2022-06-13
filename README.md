@@ -6,7 +6,7 @@ buildscript {
     ext.kotlin_version = "1.4.10"
     repositories {
         maven {
-            url "https://raw.githubusercontent.com/IkkyuTed/repo/main"
+            url "https://raw.githubusercontent.com/SupermapiMobile/repo/main"
             //or url "https://repo.eqgis.cn"
         }
         google()
@@ -24,7 +24,7 @@ allprojects {
         google()
         jcenter()
         maven {
-            url "https://raw.githubusercontent.com/IkkyuTed/repo/main"
+            url "https://raw.githubusercontent.com/SupermapiMobile/repo/main"
             //or url "https://repo.eqgis.cn"
         }
     }
@@ -36,8 +36,7 @@ allprojects {
 ...
 dependencies {
     //...
-    implementation 'com.eqgis:eqtool:1.2.2'
-    implementation 'com.eqgis:sceneform-sm:1.19.22'
+    implementation 'com.supermap:sceneform-sm:11.0.0'
 }
 ...
 ```
